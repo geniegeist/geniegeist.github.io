@@ -1,0 +1,36 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  margin-top: 1em;
+  width: 600px;
+  font-family: 'Lora', serif;
+  padding: calc(1em + 1ex);
+}
+
+.wrapper h1 {
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+.wrapper h2 {
+  color: #a81010;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.wrapper p, ul {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+ul {
+  font-size: 1.1em;
+}
+    
