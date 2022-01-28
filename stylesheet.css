@@ -9,9 +9,10 @@ img {
 
 .wrapper {
   margin-top: 1em;
-  width: 600px;
+  width: 100%;
   font-family: 'Lora', serif;
   padding: calc(1em + 1ex);
+  box-sizing: border-box;
 }
 
 .wrapper h1 {
@@ -33,4 +34,22 @@ img {
 ul {
   font-size: 1.1em;
 }
-    
+
+code {    
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #d63384;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 640px;
+  }
+}
